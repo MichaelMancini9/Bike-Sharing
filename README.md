@@ -5,7 +5,7 @@
 - Achieved **0.93 R²** using Random Forest
 - Engineered cyclical time features to capture daily patterns
 - Found that **time-of-day and temperature are the strongest predictors**
-- Deployed interactive app: [Live Demo](notebooks/01_eda_and_modeling.ipynb)
+- Deployed interactive app: [Live Demo](https://bike-sharing-wyhns57zrmhi7vahzdzyvq.streamlit.app/)
 
 
 ## Overview
@@ -27,7 +27,7 @@ The workflow included:
 [View the Notebook](notebooks/01_eda_and_modeling.ipynb)
 
 ## Live Demo
-https://your-streamlit-link
+https://bike-sharing-wyhns57zrmhi7vahzdzyvq.streamlit.app/
 
 ## Objective
 The goal of this project was to predict hourly bike rental demand and determine which machine learning model performs best on this dataset.
