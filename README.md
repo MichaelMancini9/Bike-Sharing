@@ -1,5 +1,13 @@
 # Bike Sharing Demand Prediction
 
+## TL;DR
+- Built ML models to predict hourly bike demand
+- Achieved **0.93 R²** using Random Forest
+- Engineered cyclical time features to capture daily patterns
+- Found that **time-of-day and temperature are the strongest predictors**
+- Deployed interactive app: [Live Demo](notebooks/01_eda_and_modeling.ipynb)
+
+
 ## Overview
 Bike sharing systems generate valuable transportation data that can be used to better understand how factors such as weather, seasonality, and time of day affect ridership. Predicting bike rental demand is useful for improving bike availability, managing fleet allocation, and supporting urban planning decisions.
 
@@ -16,7 +24,11 @@ The workflow included:
 - Residual analysis
 - Feature importance interpretation
 
-[View the Notebook](notebooks/bike_analysis.ipynb)
+[View the Notebook](notebooks/01_eda_and_modeling.ipynb)
+
+## Live Demo
+https://your-streamlit-link
+
 ## Objective
 The goal of this project was to predict hourly bike rental demand and determine which machine learning model performs best on this dataset.
 
@@ -149,22 +161,10 @@ These results suggest that **time-of-day patterns are the strongest drivers of b
 - seaborn
 - scikit-learn
 - XGBoost
+- Streamlit
 
 ## Conclusion
 
 This project demonstrates a full regression workflow for predicting hourly bike rental demand using machine learning. After comparing multiple models, Random Forest achieved the best results, indicating that nonlinear ensemble methods are well suited for this problem.
 
 Overall, the analysis shows that bike demand is primarily driven by time-of-day patterns, weather conditions, and seasonal effects, and that machine learning can model these patterns effectively.
-
-
-
-
-
-
-
-
-
-
-
-
-
