@@ -29,6 +29,16 @@ The workflow included:
 ## Live Demo
 https://bike-sharing-wyhns57zrmhi7vahzdzyvq.streamlit.app/
 
+## Power BI Dashboard
+
+I built an interactive Power BI dashboard to summarize rental demand trends, seasonal patterns, weather effects, prediction errors, and model performance.
+
+The dashboard includes KPI cards, slicers, hourly rental trends, seasonal comparisons, temperature analysis, and model performance visuals.
+
+![Power BI Dashboard](powerbi-dashboard/dashboard_screenshot.png)
+
+[Download the Power BI dashboard file](powerbi-dashboard/bike_sharing_dashboard.pbix)
+
 ## Objective
 The goal of this project was to predict hourly bike rental demand and determine which machine learning model performs best on this dataset.
 
